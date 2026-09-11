@@ -89,7 +89,7 @@ Requires Python 3.14 (developed on 3.14.7).
 ### Use with Claude Code
 
 ```bash
-claude mcp add charlotte-open-data -- /absolute/path/to/meck-mcp/.venv/bin/charlotte-open-data-mcp
+claude mcp add charlotte-open-data -- /absolute/path/to/meck-311-mcp/.venv/bin/charlotte-open-data-mcp
 ```
 
 ### Use with Claude Desktop
@@ -100,7 +100,7 @@ Add to `claude_desktop_config.json`:
 {
   "mcpServers": {
     "charlotte-open-data": {
-      "command": "/absolute/path/to/meck-mcp/.venv/bin/charlotte-open-data-mcp"
+      "command": "/absolute/path/to/meck-311-mcp/.venv/bin/charlotte-open-data-mcp"
     }
   }
 }
